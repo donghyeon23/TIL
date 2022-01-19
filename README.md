@@ -1,5 +1,14 @@
-# TIL
----
-Today I Learnd
+# 📕 Today I Learnd
 
-오늘 배운 것, 느낀 것, 고쳐야할 점들을 적는 공간입니다.
+매일 학습한 내용을 정리합니다.
+
+
+
+---
+#### **알고리즘 스터디**
+ - [programmers 문제](algorithm/programmers)
+ - [baekjoon 문제](algorithm/baekjoon)
+
+---
+#### **Javascript**
+ - [Javascript](javastript)

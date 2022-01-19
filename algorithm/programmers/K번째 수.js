@@ -20,16 +20,16 @@
 // array					commands							return
 // [1, 5, 2, 6, 3, 7, 4]	[[2, 5, 3], [4, 4, 1], [1, 7, 3]]	[5, 6, 3]
 
-
-let array = [1, 5, 2, 6, 3, 7, 4]
-let commands = [[2, 5, 3], [4, 4, 1], [1, 7, 3]]
-
-let next_array = commands.map(command => {
-	let [sPosition,ePosition,position] = command
-	let newArray = array.filter((value,fIndex) => fIndex >= sPosition -1 && fIndex <= ePosition -1).sort((a,b) => a -b)
-
-	return newArray[position - 1]
-	})
-
-console.log(next_array)
-
+function solution(array, commands) {
+    let result = [];
+    for (let i = 0; i < commands.length; i++) { // 2차원 배열 의 개수 만큼 반복
+        if (commands[i][0] == 0) // commands 내 i ,j 원소가 i,j 번째로 쓰이기 때문에 index번호로 쓰기 위해 0일때 1로 변경
+            commands[i][0] = 1
+        if (commands[i][2] == 0) // commands 내 i ,j 원소가 i,j 번째로 쓰이기 때문에 index번호로 쓰기 위해 0일때 1로 변경
+            commands[i][2] = 1
+        result[i] = array
+            .slice((commands[i][0]) - 1, commands[i][1]) // arr.slice(a, b)  arr의 index a 부터 b 까지 자른다
+            .sort((a, b) => a - b)[commands[i][2] - 1] // .sort() 로 정렬해서 k 번째 수를 반환 받아 result 배열에 담는다
+    }
+    return result
+}
