@@ -1,3 +1,5 @@
+/* repl.it 환경에서 test 하기 위한 js 파일 입니다. */
+
 // 프로그래머스 - 코딩테스트연습 > 정렬 > K번째 수
 // https://programmers.co.kr/learn/courses/30/lessons/42748
 

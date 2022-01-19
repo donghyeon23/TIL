@@ -33,3 +33,18 @@ function solution(array, commands) {
     }
     return result
 }
+
+
+
+//다른 사람의 map() 함수 사용한 풀이.
+let array = [1, 5, 2, 6, 3, 7, 4]
+let commands = [[2, 5, 3], [4, 4, 1], [1, 7, 3]]
+
+let next_array = commands.map(command => {
+	let [sPosition,ePosition,position] = command
+	let newArray = array.filter((value,fIndex) => fIndex >= sPosition -1 && fIndex <= ePosition -1).sort((a,b) => a -b)
+
+	return newArray[position - 1]
+	})
+
+console.log(next_array)
