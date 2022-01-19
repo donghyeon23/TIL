@@ -23,32 +23,37 @@ let regex2 = /[SDT#*]/g;
 
 let result = [0,0,0];
 
-// dr_option 문자,#,* 기준으로 split 반환
+// dr_option 문자,#,* 기준으로 split 하여 빈 요소 삭제 => 보너스  (+ 옵션) 만 남음
 dr_option = dartResult.split(regex).filter((a) => a != '')
 
-// dr_score 문자,#,* 기준으로 split 반환
+// dr_score 문자,#,* 와 대응하지 않는 문자 기준으로 split 해서 빈 요소 삭제 => 점수만 남음
 dr_score = dartResult.split(regex2).filter((a) => a != '')
 
 console.log(dr_score)
 console.log(dr_option)
 
-
+// 보너스 S , D , T 확인 후 점수 계산
 for(let i=0; i<dr_option.length; i++) {
+	// D 일때 2제곱
 	if (dr_option[i].search('D') != -1) {
 		result[i] = Math.pow(dr_score[i],2)
 	} else if (dr_option[i].search('T') != -1) {
+		// T 일때 3제곱
 		result[i] = Math.pow(dr_score[i],3)
-	} else result[i] = dr_score[i]
+	} else result[i] = dr_score[i] // S 일때 1제곱
 }
 
+// 옵션 적용 후 점수 계산
 for(let i=0; i<dr_score.length; i++) {
-	if (dr_option[i].search('#') != -1) result[i] *= -1
-	if (dr_option[i].search(/\*/) != -1) {
-		if (i==0) result[i] *=2
-		else {
+	// str.search(a) => str 내 a가 있을 시 인덱스 반환, 없으면 -1
+	if (dr_option[i].search('#') != -1) result[i] *= -1 // # = 아차상 , 해당 점수 - 로 바꾸기
+	if (dr_option[i].search(/\*/) != -1) { // * 스타상 = 해당 점수 와 전 점수 2배. (중첩가능)
+		if (i==0) result[i] *=2 // 첫번째에 올때는 첫번째 점수만 2배
+		else { // 그외 자리일때
 			result[i] *=2
 			result[i-1] *=2
 		}
 	}
 }
+// .reduce() 이용하여 result 내 점수 합산 실시.
 console.log(result.reduce((acc, cur) => parseInt(acc)+ parseInt(cur),0))
