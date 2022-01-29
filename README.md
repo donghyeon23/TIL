@@ -6,18 +6,46 @@
 
 #### **알고리즘 스터디**
 
+<details>
+<summary>문제풀이</summary>
+<div markdown="1">
+
 - [programmers 문제](algorithm/programmers)
 - [baekjoon 문제](algorithm/baekjoon)
+
+</div>
+</details>
 
 ---
 
 #### **Javascript**
 
+<details>
+<summary>Javascript</summary>
+<div markdown="1">
+
 - [Javascript](javastript)
+</div>
+</details>
 
 ---
 
 #### **CS**
 
-- [전자회로와 논리구조](CS/전자회로와논리구조)
-  - [논리게이트](CS/전자회로와논리구조/논리게이트.md)
+<details>
+<summary>전자 회로와 논리 구조</summary>
+<div markdown="1">
+
+- [논리 게이트](CS/전자회로와%20논리구조/논리%20게이트.md)
+
+</div>
+</details>
+
+<details>
+<summary>순차 논리</summary>
+<div markdown="1">
+
+- [논리 게이트](CS/전자회로와%20논리구조/논리%20게이트.md)
+
+</div>
+</details>
