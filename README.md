@@ -33,6 +33,15 @@
 #### **CS**
 
 <details>
+<summary>컴퓨터 내부의 언어 체계</summary>
+<div markdown="1">
+
+- [논리 게이트](CS/컴퓨터%20내부의%20언어%20체계/논리%20게이트.md)
+
+</div>
+</details>
+
+<details>
 <summary>전자 회로와 논리 구조</summary>
 <div markdown="1">
 
