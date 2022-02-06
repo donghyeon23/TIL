@@ -4,7 +4,9 @@
 
 ---
 
-#### **알고리즘 스터디**
+### **알고리즘 스터디**
+
+<!--////////////////////////////////////////////////////-->
 
 <details>
 <summary>문제풀이</summary>
@@ -12,14 +14,25 @@
 
 -   [programmers 문제](algorithm/programmers)
 -   [baekjoon 문제](algorithm/baekjoon)
--   [시간복잡도와 공간복잡도](algorithm/algorithm/시간%20복잡도와%20공간%20복잡도.md)
 
 </div>
 </details>
 
+<!--////////////////////////////////////////////////////-->
+
+<details>
+<summary>알고리즘 개념</summary>
+<div markdown="1">
+
+-   [시간복잡도와 공간복잡도](algorithm/algorithm/시간%20복잡도와%20공간%20복잡도.md)
+
+</div>
+</details>
+<!--////////////////////////////////////////////////////-->
+
 ---
 
-#### **TIL**
+### **TIL**
 
 <!--////////////////////////////////////////////////////-->
 
@@ -34,12 +47,10 @@
 <!--////////////////////////////////////////////////////-->
 
 <details>
-<summary>database</summary>
+<summary>Node.js</summary>
 <div markdown="1">
 
--   [ORM 이란?](database/ORM%20이란.md)
--   [NoSQL vs SQL](database/NoSQL%20vs%20SQL.md)
-
+-   [package.json이란?](node.js/package.js.md)
 </div>
 </details>
 
@@ -61,7 +72,7 @@
 <summary>CS</summary>
 <div markdown="1">
 
--   [ORM 이란?](database/ORM%20이란.md)
+-   [없음](database/ORM%20이란.md)
 
 </div>
 </details>
