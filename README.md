@@ -33,6 +33,7 @@
 <div markdown="1">
 
 - [ORM 이란?](database/ORM%20이란.md)
+- [NoSQL vs SQL](database/NoSQL%20vs%20SQL.md)
 
 </div>
 </details>
