@@ -18,7 +18,7 @@
 
 ---
 
-#### **Javascript**
+#### **TIL**
 
 <details>
 <summary>Javascript</summary>
@@ -28,33 +28,22 @@
 </div>
 </details>
 
+<details>
+<summary>database</summary>
+<div markdown="1">
+
+- [ORM 이란?](database/ORM%20이란.md)
+
+</div>
+</details>
+
+<details>
+<summary>CS</summary>
+<div markdown="1">
+
+- [ORM 이란?](database/ORM%20이란.md)
+
+</div>
+</details>
+
 ---
-
-#### **CS**
-
-<details>
-<summary>컴퓨터 내부의 언어 체계</summary>
-<div markdown="1">
-
-- [논리 게이트](CS/컴퓨터%20내부의%20언어%20체계/논리%20게이트.md)
-
-</div>
-</details>
-
-<details>
-<summary>전자 회로와 논리 구조</summary>
-<div markdown="1">
-
-- [논리 게이트](CS/전자회로와%20논리구조/논리%20게이트.md)
-
-</div>
-</details>
-
-<details>
-<summary>순차 논리</summary>
-<div markdown="1">
-
-- [논리 게이트](CS/전자회로와%20논리구조/논리%20게이트.md)
-
-</div>
-</details>
