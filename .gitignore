@@ -1,6 +1,7 @@
-/algoritm/baekjoon/node_modules
-/algoritm/baekjoon/dev
-/algoritm/baekjoon/baekjoon/양식.js
-/..replit
-/.index.js
-/.vscode
+
+algoritm/baekjoon/node_modules/
+algoritm/baekjoon/dev/
+
+.replit
+index.js
+.vscode
