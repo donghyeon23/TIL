@@ -1,6 +1,6 @@
 
-algoritm/baekjoon/node_modules/
-algoritm/baekjoon/dev/
+**/node_modules/
+**/dev/
 
 .replit
 index.js
