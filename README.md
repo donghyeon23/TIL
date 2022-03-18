@@ -40,7 +40,7 @@
 <summary>Javascript</summary>
 <div markdown="1">
 
--   [Javascript](javastript)
+-   [없음]()
 </div>
 </details>
 
@@ -72,7 +72,7 @@
 <summary>CS</summary>
 <div markdown="1">
 
--   [없음](database/ORM%20이란.md)
+-   [없음]()
 
 </div>
 </details>
