@@ -72,7 +72,7 @@
 <summary>CS</summary>
 <div markdown="1">
 
--   [없음]()
+-   [전자회로와 논리구조](CS/%EC%A0%84%EC%9E%90%ED%9A%8C%EB%A1%9C%EC%99%80%20%EB%85%BC%EB%A6%AC%EA%B5%AC%EC%A1%B0/)
 
 </div>
 </details>
@@ -84,6 +84,7 @@
 <div markdown="1">
 
 -   [CORS 란?](Network/CORS.md)
+-   [REST API란?](Nerwork/REST%20API.md)
 
 
 </div>
